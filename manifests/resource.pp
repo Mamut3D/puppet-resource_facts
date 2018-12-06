@@ -20,7 +20,7 @@
 
 define resource_facts::resource (
   $resource_type = $title
-  ){
+){
   include ::resource_facts
 
   # the reason for this strange approach is so that modules can add resource
